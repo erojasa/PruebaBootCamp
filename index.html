@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Erick R.">
+  <meta name="description" content="Primera prueba Bootcamp CR">
   <!--CSS file-->
   <link rel="stylesheet" href="./assets/css/style.css">
   <!--Bootstrap CSS-->
@@ -14,7 +16,6 @@
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <title>Viajes Chile</title>
 </head>
-
 <body>
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent text-dark fixed-top">
@@ -69,42 +70,28 @@
   </header>
   <main class="main">
     <!--Who we are-->
-    <section class="text-left container-fluid text-light py-5 d-none d-md-block" id="us">
-      <div>
-        <h3 class="text-center">Quienes somos</h3>
-      </div>
-      <div class="line border-info border-top pt-1 pb-3"></div>
+    <section class="container-fluid  text-light py-5 d-none d-md-block" id="us">
+      <h3 class="text-center pb-3">¿Quiénes somos?</h3>
+
       <div class="container">
-        <div class="row my-5 pb-5">
-
-          <div class="col-md-4 mt-5 container-fluid bg-info text-center">
-            <h3><i class="fas fa-plane"></i></h3>
-            <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore totam dicta est adipisci harum
-                facere
-                quae maxime fuga atque, culpa quibusdam. Ipsam omnis enim accusamus eveniet iure error hic ducimus?</p>
-            </div>
-
+          <div class="line border-info border-top"></div>
+          <div class="row my-1 pb-3">
+              <div class="col-md-4 mt-5">
+                  <i class="container-fluid fas fa-plane fa-3x bg-info py-1 text-center" data-toggle="tooltip" data-placement="top" title="" data-original-title="vuelos">
+                      </i>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente in quia molestiae quisquam nulla, obcaecati consequuntur rem incidunt facilis omnis iure, quod officia dolorem, laudantium totam sint mollitia quam culpa corrupti voluptatum</p>
+              </div>
+              <div class="col-md-4 mt-5">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente in quia molestiae quisquam nulla, obcaecati consequuntur rem incidunt facilis omnis iure, quod officia dolorem, laudantium totam sint mollitia quam culpa corrupti voluptatum</p>
+                  <i class="container-fluid fas fa-mountain fa-3x bg-info py-1 text-center" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="montañas"></i>
+              </div>
+              <div class="col-md-4 mt-5">
+                  <i class="container-fluid fas fa-route fa-3x bg-info py-1 text-center" data-toggle="tooltip" data-placement="top" title="" data-original-title="tours"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente in quia molestiae quisquam nulla, obcaecati consequuntur rem incidunt facilis omnis iure, quod officia dolorem, laudantium totam sint mollitia quam culpa corrupti voluptatum</p>
+              </div>
           </div>
-
-
-          <div class="col-md-4 container-fluid bg-info text-center">
-            <h3><i class="fab fa-amazon-pay"></i></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore totam dicta est adipisci harum facere
-              quae maxime fuga atque, culpa quibusdam. Ipsam omnis enim accusamus eveniet iure error hic ducimus?</p>
-          </div>
-
-
-
-          <div class="col-md-4 container-fluid bg-info text-center">
-            <h3><i class="far fa-address-card "></i></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore totam dicta est adipisci harum facere
-              quae maxime fuga atque, culpa quibusdam. Ipsam omnis enim accusamus eveniet iure error hic ducimus?</p>
-          </div>
-
-        </div>
       </div>
-    </section>
+  </section>
     <!--card-deck-->
     <!--Destacados-->
     <h3 class="text-center my-5 display-5 text-white">Destacados</h3>
@@ -175,16 +162,14 @@
     </section>
   </main>
   <!--footer-->
-  <footer class="container-fluid bg-info text-white">
-    <div class="container icons d-flex justify-content-between align-items-center px-3">
+  <footer class="container-fluid bg-info text-white py-5">
+    <div class="container icons d-flex justify-content-between align-items-center px-2">
       <h3 mt-2>VIAJES CHILE</h3>
-      <div class="footer icons list-style-none text-white text-decoration-none">
-        <ul class="d-inline-block mt-3">
-          <li class="f-icons"><a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-3x"></i></a></li>
-          <li class="f-icons"> <a href="https://cr.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a></li>
-          <li class="f-icons"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a></li>
-          <li class="f-icons"><a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a></li>
-        </ul>
+      <div class="">
+        <a class="text-white px-5" href="https://cr.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a class="text-white px-5" href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+          <a class="text-white px-5" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+          <a class="text-white px-5" href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
       </div>
     </div>
   </footer>
@@ -198,5 +183,4 @@
     crossorigin="anonymous"></script>
   <script src="./assets/js/script.js"></script>
 </body>
-
 </html>

@@ -12,14 +12,4 @@
   object-fit: cover;
 }
 
-.f-icons {
-  color: white;
-  display: inline-block;
-  list-style: none;
-  text-decoration: none;
-  margin-left: 2rem;
-}
 
-a {
-  color: white!important;
-}
