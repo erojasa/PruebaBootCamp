@@ -6,3 +6,7 @@
   background-color: black;
   color: white;
 }
+
+.card {
+  min-height: 200px;
+}
